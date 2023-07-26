@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- the title of the website visible in the title bar -->
+    <title>Daniel's website</title>
+
+    <style>
+        /* * {
+            scroll-behavior: smooth;
+        } */
+        th,
+        td {
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+
+    <!-- head is used to store the meta data () -->
+
+</head>
+
+<body>
+
+    <a href="#level-3">Go Down to heading 3</a>
+
+
+    <!-- heading -->
+    <h1>Hello Daniel</h1>
+    <h2>Hello Daniel</h2>
+    <h3>Hello Daniel</h3>
+    <h4>Hello Daniel</h4>
+    <h5>Hello Daniel</h5>
+    <h6>Hello Daniel</h6>
+
+    <!-- paragraphs -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, neque.</p>
+
+    <!-- lists -->
+
+    <!-- ordered -->
+    <!-- ol tag is used to create a ordered list -->
+    <ol type="i">
+        <!-- li tag is used to create a list item -->
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+        <li>Dragonfruit</li>
+    </ol>
+
+
+    <!-- unordered list -->
+    <!-- ul tag is used to create a unordered list -->
+    <ul>
+        <!-- li tag is used to create a list item -->
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+        <li>Dragonfruit</li>
+    </ul>
+
+
+    <!-- descriptive list -->
+
+    <!-- dl tag is used to create a descriptive list-->
+    <dl>
+        <dt>Apple</dt>
+        <dd>Apple is red in color</dd>
+        <dt>Banana</dt>
+        <dd>Banana is yellow in color</dd>
+        <dt>Cherry</dt>
+        <dd>Cherry is red in color</dd>
+    </dl>
+
+
+    <!-- links / hyperlinks -->
+    <!-- anchor / a tag is used to create a hyperlink , the address is provided in the href attribute -->
+
+
+    <!-- external link -->
+    <a href="https://www.google.com" target="_blank">
+        <h1>Go To Google</h1>
+    </a>
+
+    <!-- internal link -->
+    <a href="about.html">
+        <h2>take me to the About Page </h2>
+    </a>
+
+
+    <h3 id="level-3">come here</h3>
+
+    <!-- tables   -->
+
+    <!-- table tag is used to create a table -->
+    <!-- "border" attibute helps us to put a border around out table  -->
+    <table border="1">
+        <!-- table rows are created using the "tr" tag -->
+        <tr>
+            <!-- "th" tag is used to create a column for a heading -->
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <!-- "td" tag is used to create column for the data -->
+            <td>Rohan</td>
+            <td>28</td>
+            <td>Male</td>
+            <td>hello@email.com</td>
+        </tr>
+        <tr>
+            <td>Aditya</td>
+            <td>28</td>
+            <td>Male</td>
+            <td>Aditya@email.com</td>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>100</td>
+            <td>Male</td>
+            <td>john@email.com</td>
+        </tr>
+    </table>
+
+    <!-- col span and row span -->
+    <!-- self closing tag vs open close -->
+
+
+    <!-- forms -->
+    <!-- form tag is used to create a form in html -->
+    <form>
+        <!-- input tag to take any type of input -->
+        <label for="myName">Name : </label>
+        <input id="myName" type="text" placeholder="Enter name here " />
+
+        <!-- add a line break -->
+        <br />
+
+        <label for="dob">Date of Birth : </label>
+        <input type="date" id="dob" />
+
+
+        <br />
+        <label for="email">Email :</label>
+        <input type="email" id="email" placeholder="Enter your email address " />
+
+        <br />
+
+        <label> Password : <input type="password" placeholder="Enter your password"></label>
+
+        <!-- submitting our form  => button-->
+
+        <!-- ❌ -->
+        <!-- <input type="button" value="submit" /> -->
+
+        <!-- ✔ -->
+        <button type="submit">Submit the form</button>
+
+
+    </form>
+
+
+</body>
+
+</html>
